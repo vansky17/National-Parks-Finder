@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  button, input[type="text"] {
+    padding: 5px;
+    margin-top: 0.2em;
+  }
+  input[type="number"] {
+      margin-top: 0.2em;
+      width: 5em;
+  }
+  label, input[type="submit"] {
+      margin-top: 1em;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .error-message {
+      color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  #js-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #results-list {
+    list-style: none;
+}
+  #results-list li{
+    border-top: 1px solid black;
+    padding: 1em;
+}
+#results-list li:last-child {
+    border-bottom: 1px solid black;
+    padding: 1em;
+}
+.bold {
+    font-weight: 700;
+}
